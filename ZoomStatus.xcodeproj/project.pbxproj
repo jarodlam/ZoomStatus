@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0CDDEC627D97E2F003AEDE2 /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CDDEC527D97E2F003AEDE2 /* StatusBarController.swift */; };
+		D0CDDEC827D98202003AEDE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CDDEC727D98202003AEDE2 /* AppDelegate.swift */; };
 		D0D96FE027D97D07004C4D97 /* ZoomStatusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D96FDF27D97D07004C4D97 /* ZoomStatusApp.swift */; };
 		D0D96FE227D97D07004C4D97 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D96FE127D97D07004C4D97 /* ContentView.swift */; };
 		D0D96FE427D97D08004C4D97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0D96FE327D97D08004C4D97 /* Assets.xcassets */; };
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D0CDDEC527D97E2F003AEDE2 /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
+		D0CDDEC727D98202003AEDE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0CDDEC927D985F3003AEDE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D0D96FDC27D97D07004C4D97 /* ZoomStatus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZoomStatus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0D96FDF27D97D07004C4D97 /* ZoomStatusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomStatusApp.swift; sourceTree = "<group>"; };
 		D0D96FE127D97D07004C4D97 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,11 +100,14 @@
 		D0D96FDE27D97D07004C4D97 /* ZoomStatus */ = {
 			isa = PBXGroup;
 			children = (
+				D0CDDEC927D985F3003AEDE2 /* Info.plist */,
 				D0D96FDF27D97D07004C4D97 /* ZoomStatusApp.swift */,
+				D0CDDEC527D97E2F003AEDE2 /* StatusBarController.swift */,
 				D0D96FE127D97D07004C4D97 /* ContentView.swift */,
 				D0D96FE327D97D08004C4D97 /* Assets.xcassets */,
 				D0D96FE827D97D08004C4D97 /* ZoomStatus.entitlements */,
 				D0D96FE527D97D08004C4D97 /* Preview Content */,
+				D0CDDEC727D98202003AEDE2 /* AppDelegate.swift */,
 			);
 			path = ZoomStatus;
 			sourceTree = "<group>";
@@ -259,7 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0CDDEC827D98202003AEDE2 /* AppDelegate.swift in Sources */,
 				D0D96FE227D97D07004C4D97 /* ContentView.swift in Sources */,
+				D0CDDEC627D97E2F003AEDE2 /* StatusBarController.swift in Sources */,
 				D0D96FE027D97D07004C4D97 /* ZoomStatusApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +434,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ZoomStatus/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZoomStatus/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,6 +460,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ZoomStatus/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZoomStatus/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
